@@ -1,0 +1,51 @@
+.home{
+    background-image: url('../images/grocery.jpg');
+    min-height: 100vh;
+    padding-left:50px;
+}
+
+.Heading{
+    padding-top: 50px;
+    font-weight: 50px;
+}
+.delivery{
+}
+.workout2{
+    color: white; 
+}
+
+.submit-button{
+     background-color: white;
+    border: none;
+    color: black; 
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  .submit-button1{
+    background-color: white;
+   border: none;
+   color: black; 
+   padding: 15px 32px; 
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 8px;
+   font-size: 16px;
+   margin-left: 20px;
+ }
+  .delivery1{
+    font-size:50px;
+      color:black;
+      display:block;
+  }
+  .delivery2{
+    font-size:20px;
+    display:block;
+    color:red;
+  }
