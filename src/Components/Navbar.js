@@ -16,7 +16,7 @@ function Navbar(){
             <div className='header-icon'>
                 <div className="Heading">
                     <div className='Grocery'>
-                        <h1>Grocery </h1>
+                        <h1> Eddah's Grocery </h1>
                     </div>
                 </div>
 
