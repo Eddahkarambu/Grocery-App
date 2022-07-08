@@ -9,8 +9,9 @@ import Contact from "./Contact";
 export default class Paths extends Component {
     render() {
         return (
-                <Routes>
+            <Routes>
                     <Route path="/" exact element={<Home />}></Route>
+                    <Route path="/home" exact element={<Home />}></Route>
                     <Route path="/signup" exact element={<Signup />}></Route>
                     <Route path="/shop" exact element={<Shop />}></Route>
                     <Route path="/services" exact element={<Services />}></Route>

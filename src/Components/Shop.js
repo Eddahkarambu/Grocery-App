@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Shop() {
     return (
       <div className="shop">
-           <Navbar />
+           <Navbar/>
  
       </div>
     );
