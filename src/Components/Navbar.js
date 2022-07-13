@@ -27,6 +27,7 @@ function Navbar(){
             <div className="main-nav">
                 <Link to='/Home' >Home</Link>
                 <Link to='/Signup'>Signup</Link>
+                <Link to='/Signin'>Signin</Link>
                 <Link to='/Shop' >Shop</Link>
                 <Link to='/Services' >Services</Link>
                 <Link to='/Contact'>Contact</Link>
@@ -34,7 +35,8 @@ function Navbar(){
             {showMenu && (
                 <div className="mobile-nav">
                  <Link to='/Home'>Home</Link>
-                 <Link to='/Signup'>Signup</Link>
+                <Link to='/Signup'>Signup</Link>
+                 <Link to='/Signin'>Signin</Link>
                 <Link to='/Shop'>Shop</Link>
                 <Link to='/Services'>Services</Link>
                 <Link to='/Contact'>Contact</Link>

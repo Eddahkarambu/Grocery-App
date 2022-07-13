@@ -1,13 +1,13 @@
 import React,{useState} from "react";
-import './Signup.css';
+import './Signin.css';
 import Navbar from './Navbar.js';
 
 
 
 
-function Signup() {
+function Signin() {
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+
   const [password, setPassword] = useState('');
   const [confPassword, setConfPassword] = useState('');
 
@@ -15,9 +15,7 @@ function Signup() {
     setName(e.target.value);
   }
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  }
+ 
 
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
@@ -50,10 +48,6 @@ function Signup() {
           </label><br />
           <input type="text" value={name} required onChange={(e)=> { handleChange(e) }} /><br />
           <label>
-            Email:
-          </label><br />
-          <input type="email" value={email} required onChange={(e) => { handleEmailChange(e) }} /><br />
-          <label>
             Password:
           </label><br />
           <input type="password" value={password} required onChange={(e) => { handlePasswordChange(e) }} /><br />
@@ -70,4 +64,4 @@ function Signup() {
     );
   }
   
-  export default Signup;
+  export default Signin;
